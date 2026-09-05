@@ -3,5 +3,9 @@ __pycache__/
 .pytest_cache/
 *.pyc
 .env
+
+allure-results/
+allure-report/
+
 .idea/
 .vscode/

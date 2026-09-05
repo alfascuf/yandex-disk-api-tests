@@ -3,7 +3,7 @@ import requests
 
 class YandexDiskClient:
     BASE_URL = "https://cloud-api.yandex.net/v1/disk"
-    TIMEOUT = 10
+    TIMEOUT = (20, 30)
 
     def __init__(self, token: str):
         self.session = requests.Session()
