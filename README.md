@@ -20,13 +20,16 @@
 - получение несуществующего ресурса
 - повторное создание существующей папки
 
-## Project structure
+## Run tests
 
-```text
-api/
-    disk_client.py
-tests/
-    test_disk_api.py
-conftest.py
-pytest.ini
-requirements.txt
+- pytest -v
+
+для Allure-результатов:
+- pytest -v --alluredir=allure-results
+
+Для просмотра отчета:
+- allure serve allure-results
+
+## Environment
+
+- set YANDEX_DISK_TOKEN=your_token
